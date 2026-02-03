@@ -14,7 +14,8 @@ func Hello(name string) (string, error) {
     }
     // Create a message using a random format.
     message := fmt.Sprintf(randomFormat(), name)
-    return message, nil
+       //message := fmt.Sprint(randomFormat())
+	return message, nil
 }
 
 // Hellos returns a map that associates each of the named people
